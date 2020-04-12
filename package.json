@@ -1,7 +1,7 @@
 {
   "name": "restfull",
   "version": "1.0.0",
-  "description": "",
+  "description": "1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/interhub/restfull/issues"
   },
-  "homepage": "https://github.com/interhub/restfull#readme"
+  "homepage": "https://github.com/interhub/restfull#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5"
+  },
+  "devDependencies": {}
 }
